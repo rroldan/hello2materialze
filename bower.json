@@ -1,5 +1,6 @@
 {
   "name": "hello2materialize",
   "dependencies": {
+    "materialize": "0.97.6"
   }
 }
