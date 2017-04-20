@@ -1,7 +1,31 @@
 # hello2materialize
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+ Ember application example materialize integration
+
+## Steps
+* installing ember-cli-materialize
+* clean dependencies
+* Some of the library's defaults can be set via your **config/environment.js** file
+
+```javascript
+module.exports = function(/* environment, appConfig */) {
+  var ENV = {
+    materializeDefaults: {
+      modalIsFooterFixed:  false,
+      buttonIconPosition:  'left',
+      loaderSize:          'big',
+      loaderMode:          'indeterminate',
+      modalContainerId:    'materialize-modal-root-element',
+      dropdownInDuration:  300,
+      dropdownOutDuration: 300
+    },
+    ...
+  };
+}
+
+```
+
+
 
 ## Prerequisites
 

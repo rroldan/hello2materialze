@@ -6,6 +6,15 @@ module.exports = function(environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    materializeDefaults: {
+      modalIsFooterFixed: false,
+      modalContainerId: 'materialize-modal-root-element',
+      buttonIconPosition: 'left',
+      loaderSize: 'big',
+      loaderMode: 'indeterminate',
+      dropdownInDuration: 300,
+      dropdownOutDuration: 300
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
